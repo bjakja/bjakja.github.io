@@ -184,6 +184,104 @@
                 
 <p></p>
 <h1 class="rvps4"><span class="rvts0"><span class="rvts15">Co nowego?</span></span></h1>
+<p class="rvps2"><span class="rvts14">Lista poprawek w wersji 0.9.3.893</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Zmienione wbudowane motywy na DarkSentro i LightSentro, poprzednie zostały dodane do Themes.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione złe rysowanie niektórych elementów, np obwódki porównania, czy kursora i zacznaczenia w polach tekstowych, a także przy podziale karaoke.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Dodany zastępczy skrót shift+klik do łączenia sylab karaoke.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione losowe crashe przy wczytywaniu audio i jednoczesnym odświeżaniu klatki wideo, co na słabszych komputerach powodować mogło wyjątek DirectX, bądź brak synchronizacji FFMS2.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony crash przy zamknięciu programu podczas wczytywania audio do RAM.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Zablokowane pytanie o indeksowanie plików na pełnym ekranie.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Dodane skojarzenia plików.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Okno time postprocessora dodane osobno przełączane przyciskiem w oknie przesuwania czasów.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione złe przemieszczanie okien, by były widoczne w całości na drugim monitorze.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony brak zapisu do napisów podczas pisania w polach aktor i efekt.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Dodane spektrum nieliniowe, które bardziej uwidacznia częstotliwości głosu.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione złe zaznaczanie po wykonaniu skryptu Lua.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony brak wklejania kolorów do motywu i późniejsze crashe, a także zły kolor obramowań menu i list.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Dodana funkcja aegisub.get_frequency_peeks do tworzenia efektów karaoke do rytmu. Przyjmuje zmienne czas początkowy, czas końcowy, częstotliwość początkowa i końcowa z przedziału od 0 do 22000HZ i natężenie może przyjmować nawet ponad 1500, ustawienie 0 zwraca oprócz tablicę z czasami dodatkowo jeszcze wszystkie natężenia w drugiej tablicy. Przykład zastosowania peekstimes = aegisub.get_frequency_peeks(line.start_time, line.end_time, 50, 50, 500), w drugim przypadku times, intensities = aegisub.get_frequency_peeks(line.start_time, line.end_time, 50, 100, 0)</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiona zła zmiana rozdzielczości napisów i brak odświeżania.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony brak dwóch folderów w pliku zip przez co nie działał dependency control i inne skrypty.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony brak zmiany kolorów siatki podglądu.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony brak zaznaczania przy wklejaniu wielu linijek na sam koniec.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione złe działanie sprawdzania pisowni, gdy zostało włączone zastępowanie tagów na podaną frazę/znak.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Ustawienie błędu pisowni, gdy słowa nie da się skonwertować na dany język.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Dodane wczytywanie zwykłego tekstu w pliku TXT jako format ASS.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawione przesuwanie spektrum tak, by aktywna sylaba była zawsze widoczna, a także zrobione przechodzenie do ostatniej sylaby poprzedniej linijki zamiast pierwszej.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawka niewłaściwego działania linii do zmiany rozmiaru okna, gdy było więcej kliknięć niż zwolnień przycisku myszy.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">Poprawiony autopodział sylab karaoke zawierających znaki unicode.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts14">Lista poprawek w wersji 0.9.2.858</span></p>
 <p class="rvps2"><span class="rvts14"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
@@ -195,7 +293,7 @@
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
-<li class="rvps2"><span class="rvts6">Dodane automatyczna zmiana linii przy przechodzeniu do następnej linii i kursorem przy włączonym porównywaniu.</span></li>
+<li class="rvps2"><span class="rvts6">Dodana automatyczna zmiana linii przy przechodzeniu do następnej linii i kursorem przy włączonym porównywaniu.</span></li>
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
