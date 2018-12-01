@@ -132,30 +132,31 @@ span.rvts25
 }
 span.rvts26
 {
- font-size: 6pt;
+ font-size: 13pt;
+ font-weight: bold;
+ color: #FFFFFF
 }
 span.rvts27
 {
- font-size: 4pt;
+ font-size: 6pt;
 }
 span.rvts28
 {
- font-weight: bold;
- color: #ff0000;
+ font-size: 4pt;
 }
 span.rvts29
 {
- color: ;
+ font-weight: bold;
+ color: #ff0000;
 }
 span.rvts30
 {
- font-size: 12pt;
- font-weight: bold;
+ color: ;
 }
 span.rvts31
 {
+ font-size: 12pt;
  font-weight: bold;
- color: #ff0000;
 }
 span.rvts32
 {
@@ -164,65 +165,70 @@ span.rvts32
 }
 span.rvts33
 {
+ font-weight: bold;
+ color: #ff0000;
+}
+span.rvts34
+{
  font-size: 12pt;
  font-weight: bold;
  color: ;
 }
-span.rvts34
+span.rvts35
 {
  font-size: 14pt;
  font-weight: bold;
 }
-span.rvts35
+span.rvts36
 {
  font-style: italic;
  font-weight: bold;
  color: #ff0000;
 }
-span.rvts36
-{
-}
 span.rvts37
 {
- color: #8b0000;
 }
 span.rvts38
 {
- font-style: italic;
+ color: #8b0000;
 }
 span.rvts39
 {
- text-decoration: line-through;
+ font-style: italic;
 }
 span.rvts40
 {
- font-size: 11pt;
- font-weight: bold;
+ text-decoration: line-through;
 }
 span.rvts41
 {
  font-size: 11pt;
  font-weight: bold;
- color: #ff0000;
 }
 span.rvts42
 {
- color: #8b0000;
+ font-size: 11pt;
+ font-weight: bold;
+ color: #ff0000;
 }
 span.rvts43
 {
- color: #ff0000;
+ color: #8b0000;
 }
 span.rvts44
 {
- color: ;
+ color: #ff0000;
 }
 span.rvts45
+{
+ color: ;
+}
+span.rvts46
 {
  font-weight: bold;
  color: #ff0000;
 }
-span.rvts46
+span.rvts47
 {
  font-weight: bold;
 }
@@ -275,21 +281,25 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps8
 {
- margin: 0px 0px 0px 24px;
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
 }
 .rvps9
 {
+ margin: 0px 0px 0px 24px;
 }
 .rvps10
 {
 }
 .rvps11
 {
- margin: 0px 0px 0px 24px;
 }
 .rvps12
 {
- margin: 0px 0px 0px 48px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps13
 {
@@ -301,7 +311,7 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps15
 {
- text-indent: 48px;
+ margin: 0px 0px 0px 48px;
 }
 .rvps16
 {
@@ -312,6 +322,10 @@ p,ul,ol /* Paragraph Style */
  text-indent: 48px;
 }
 .rvps18
+{
+ text-indent: 48px;
+}
+.rvps19
 {
  line-height: 1.50;
  margin: 0px 0px 0px 48px;

@@ -188,11 +188,38 @@ a:link { color: #0076C5}</style>
             <div class="main-content">
                 
 <p></p>
-<h1 class="rvps4"><span class="rvts0"><span class="rvts15">Znajdź i zmień</span></span></h1>
+<h1 class="rvps4"><span class="rvts0"><span class="rvts15">Okno szukania i zmieniania</span></span></h1>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><span class="rvts25">Okno </span><span class="rvts19">szukania i zmieniania</span><span class="rvts25"> zostało rozbudowane bardziej, by mogło zrobić rzeczy, które dotąd można było robić tylko skryptami Lua.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts26">Znajdź</span></span></h3>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/znajdz.png"></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps6"><span class="rvts6">Tekst którego szukamy, w przypadku zaznaczonych </span><span class="rvts17">wyrażeń regularnych</span><span class="rvts6"> może przyjmować kod przy nich wykorzystywany.</span></li>
+<li value="2" class="rvps6"><span class="rvts6">Zahaczenie tej opcji uwzględnia wielkość liter.</span></li>
+<li value="3" class="rvps6"><span class="rvts6">Wyrażenia regularne jest to bardziej rozbudowany sposób szukania. Dla osób, nie mających nic wspólnego z programowaniem mogą wydawać się trudne, więc opiszę go trochę bardziej poniżej w tym temacie, bo nawet na polskiej Wikipedii za dużo o tym nie ma.</span></li>
+<li value="4" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na początku tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="5" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na końcu tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="6" class="rvps6"><span class="rvts6">Szuka tylko w tekście linijek.</span></li>
+<li value="7" class="rvps6"><span class="rvts6">Szuka tylko w tekście oryginału, gdy jest włączony tryb tłumaczenia.</span></li>
+<li value="8" class="rvps6"><span class="rvts6">Szuka tylko w stylach linijek.</span></li>
+<li value="9" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie aktor.</span></li>
+<li value="10" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie efekt.</span></li>
+<li value="11" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach napisów.</span></li>
+<li value="12" class="rvps6"><span class="rvts6">Szuka we wszystkich zaznaczonych linijkach napisów.</span></li>
+<li value="13" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach od pierwszej zaznaczonej linijki napisów.</span></li>
+<li value="14" class="rvps6"><span class="rvts6">Po kliknięciu na "+" można wybrać style do których ogranicza się nasze szukanie. Ta opcja współgra z tymi trzema powyżej, a więc można wybrać, by szukało tylko linii o danym stylu w zaznaczonych linijkach.</span></li>
+<li value="15" class="rvps6"><span class="rvts6">Pole tekstowe w którym wyświetlane są nazwy wybranych stylów.</span></li>
+<li value="16" class="rvps6"><span class="rvts6">Znajduje frazę i zaznacza ją w polu tekstowym.</span></li>
+<li value="17" class="rvps6"><span class="rvts6">Znajduje wszystko w bieżących napisach. Wyniki wyszukiwania wyświetla w osobnym oknie opisanym przy szukaniu w plikach.</span></li>
+<li value="18" class="rvps6"><span class="rvts6">Znajduje wszystko we wszystkich otwartych napisach. Wyniki wyszukania tak jak wyżej wyświetla w osobnym oknie.</span></li>
+<li value="19" class="rvps6"><span class="rvts6">Zamyka okno.</span></li>
+</ol>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts26">Znajdź i zamień</span></span></h3>
 <p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem11.png"></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/zn-i-zam1.png"></p>
 <p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts25">Okno </span><span class="rvts19">szukania i zmieniania</span><span class="rvts25"> zostało rozbudowane bardziej by mogło zrobić rzeczy które dotąd można było robić tylko skryptami Lua.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
 <li value="1" class="rvps6"><span class="rvts6">Tekst którego szukamy, w przypadku zaznaczonych </span><span class="rvts17">wyrażeń regularnych</span><span class="rvts6"> może przyjmować kod przy nich wykorzystywany.</span></li>
@@ -200,19 +227,51 @@ a:link { color: #0076C5}</style>
 <li value="3" class="rvps6"><span class="rvts6">Znajduje frazę i zaznacza ją w polu tekstowym.</span></li>
 <li value="4" class="rvps6"><span class="rvts6">Zmienia znalezioną frazę, jeśli nie była znaleziona, to jej szuka i zmienia.</span></li>
 <li value="5" class="rvps6"><span class="rvts6">Zmienia wszystko.</span></li>
-<li value="6" class="rvps6"><span class="rvts6">Zamyka okno.</span></li>
-<li value="7" class="rvps6"><span class="rvts6">Zahaczenie tej opcji uwzględnia wielkość liter.</span></li>
-<li value="8" class="rvps6"><span class="rvts6">Wyrażenia regularne jest to bardziej rozbudowany sposób szukania, dla osób nie mających nic wspólnego z programowaniem może wydawać się trudny więc opiszę go trochę bardziej poniżej w tym temacie, bo nawet na polskiej Wikipedii za dużo o tym nie ma.</span></li>
-<li value="9" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na początku tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
-<li value="10" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na końcu tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
-<li value="11" class="rvps6"><span class="rvts6">Szuka tylko w tekście linijek.</span></li>
-<li value="12" class="rvps6"><span class="rvts6">Szuka tylko w stylach linijek.</span></li>
-<li value="13" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie aktor.</span></li>
-<li value="14" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie efekt.</span></li>
-<li value="15" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach napisów.</span></li>
-<li value="16" class="rvps6"><span class="rvts6">Szuka we wszystkich zaznaczonych linijkach napisów.</span></li>
-<li value="17" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach od pierwszej zaznaczonej linijki napisów.</span></li>
-<li value="18" class="rvps6"><span class="rvts6">Po kliknięciu na "+" można wybrać style do których ogranicza się nasze szukanie i ta opcja współgra z tymi trzema powyżej, a więc można wybrać by szukało tylko linii o danym stylu w zaznaczonych linijkach.</span></li>
+<li value="6" class="rvps6"><span class="rvts6">Zmienia we wszystkich otwartych napisach</span></li>
+<li value="7" class="rvps6"><span class="rvts6">Zamyka okno.</span></li>
+<li value="8" class="rvps6"><span class="rvts6">Zahaczenie tej opcji uwzględnia wielkość liter.</span></li>
+<li value="9" class="rvps6"><span class="rvts6">Wyrażenia regularne jest to bardziej rozbudowany sposób szukania. Dla osób, nie mających nic wspólnego z programowaniem mogą wydawać się trudne, więc opiszę go trochę bardziej poniżej w tym temacie, bo nawet na polskiej Wikipedii za dużo o tym nie ma.</span></li>
+<li value="10" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na początku tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="11" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na końcu tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="12" class="rvps6"><span class="rvts6">Szuka tylko w tekście linijek.</span></li>
+<li value="13" class="rvps6"><span class="rvts6">Szuka tylko w tekście oryginału, gdy jest włączony tryb tłumaczenia.</span></li>
+<li value="14" class="rvps6"><span class="rvts6">Szuka tylko w stylach linijek.</span></li>
+<li value="15" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie aktor.</span></li>
+<li value="16" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie efekt.</span></li>
+<li value="17" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach napisów.</span></li>
+<li value="18" class="rvps6"><span class="rvts6">Szuka we wszystkich zaznaczonych linijkach napisów.</span></li>
+<li value="19" class="rvps6"><span class="rvts6">Szuka we wszystkich linijkach od pierwszej zaznaczonej linijki napisów.</span></li>
+<li value="20" class="rvps6"><span class="rvts6">Po kliknięciu na "+" można wybrać style do których ogranicza się nasze szukanie. Ta opcja współgra z tymi trzema powyżej, a więc można wybrać, by szukało tylko linii o danym stylu w zaznaczonych linijkach.</span></li>
+<li value="21" class="rvps6"><span class="rvts6">Pole tekstowe w którym wyświetlane są nazwy wybranych stylów.</span></li>
+</ol>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts26">Znajdź w napisach</span></span></h3>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/znajdz_w_napisach.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To narzędzie pozwala na szukanie w napisach, które w ogóle nie są otwarte w programie.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" class="rvps6"><span class="rvts6">Tekst którego szukamy, w przypadku zaznaczonych </span><span class="rvts17">wyrażeń regularnych</span><span class="rvts6"> może przyjmować kod przy nich wykorzystywany.</span></li>
+<li value="2" class="rvps6"><span class="rvts6">Tekst na który zmieniamy, to pole też może być puste gdy chcemy coś po prostu usunąć. To pole też obsługuje kod wyrażeń regularnych w tym przypadku głównie chodzi o oznaczenia "\cyfra od 0 do 9".</span></li>
+<li value="3" class="rvps6"><span class="rvts6">Filtry Windows np. *.ass można tu też wpisać frazę która ma być w nazwie pliku gdy nam nie zależy na formacie napisów.</span></li>
+<li value="4" class="rvps6"><span class="rvts6">Ścieżka do katalogu, w którym będą szukane napisy. Przycisk obok pozwala na otworzenie dialogu wyboru ścieżki.</span></li>
+<li value="5" class="rvps6"><span class="rvts6">Zahaczenie tej opcji uwzględnia wielkość liter.</span></li>
+<li value="6" class="rvps6"><span class="rvts6">Wyrażenia regularne jest to bardziej rozbudowany sposób szukania. Dla osób, nie mających nic wspólnego z programowaniem mogą wydawać się trudne, więc opiszę go trochę bardziej poniżej w tym temacie, bo nawet na polskiej Wikipedii za dużo o tym nie ma.</span></li>
+<li value="7" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na początku tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="8" class="rvps6"><span class="rvts6">Znajduje szukaną frazę tylko na końcu tekstu, gdy pole znajdź jest puste, to znalezione zostaną wszystkie linijki.</span></li>
+<li value="9" class="rvps6"><span class="rvts6">Szuka tylko w tekście linijek.</span></li>
+<li value="10" class="rvps6"><span class="rvts6">Szuka tylko w tekście oryginału, gdy jest włączony tryb tłumaczenia.</span></li>
+<li value="11" class="rvps6"><span class="rvts6">Szuka tylko w stylach linijek.</span></li>
+<li value="12" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie aktor.</span></li>
+<li value="13" class="rvps6"><span class="rvts6">Szuka tylko w kolumnie efekt.</span></li>
+<li value="14" class="rvps6"><span class="rvts6">Znajduje frazę i wyświetla w osobnym oknie w zależności od opcji (17) i (18). Można ukrywać nieinteresujące nas wyszukania klikając w "-" bądź w linię z ścieżką napisów. Dla przykładu wyszukałem błąd imienia "Seimei" w Garo Gauren no Tsuki. Użyłem wyrażeń regularnych dlatego znalazło po "Seime" wszystko co nie było "i".</span></li>
+</ol>
+<p class="rvps6"><img alt="" style="padding : 1px;" src="lib/Okno wynikw szukania.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
+<li value="15" class="rvps6"><span class="rvts6">Zmienia we wszystkich napisach w danym katalogu, w zależności od użycia opcji (17) i (18).</span></li>
+<li value="16" class="rvps6"><span class="rvts6">Zamyka okno.</span></li>
+<li value="17" class="rvps6"><span class="rvts6">Szuka w podfolderach katalogu.</span></li>
+<li value="18" class="rvps6"><span class="rvts6">Szuka w ukrytych folderach katalogu.</span></li>
 </ol>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts20">Wyrażenia regularne</span></p>
@@ -253,7 +312,7 @@ a:link { color: #0076C5}</style>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts20"><br/></span></p>
 <p></p>
-<p class="rvps5" style="clear: both;"><span class="rvts12">Created with the Personal Edition of HelpNDoc: </span><a class="rvts13" href="https://www.helpndoc.com/feature-tour/create-help-files-for-the-qt-help-framework">Create cross-platform Qt Help files</a></p>
+
 
             </div>
             
