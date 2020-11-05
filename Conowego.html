@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Personal Edition 6.7.0.479">
+  <meta name="generator" content="HelpNDoc Personal Edition 6.9.0.577">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -192,6 +192,55 @@ a:link { color: #0076C5}
                 
 <p></p>
 <h1 class="rvps4"><span class="rvts0"><span class="rvts15">Co nowego?</span></span></h1>
+<p class="rvps2"><span class="rvts14">Lista poprawek w wersji 0.9.7.1211</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">W kodzie zaszło wiele zmian, które mają pomóc w uniknięciu przyszłych błędów oraz zmienione nazwy konfiguracji i skrótów oraz podzielone opcje wieloelementowe w sposób bardziej czytelny.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawiony crash powodowany przez szukanie wideo z innego wątku niż główny.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawki narzędzi edycji wizualnej, obrotów org, wycinków wektorowych i skali.</span></li>
+<li class="rvps2"><span class="rvts6">Uciszenie błędów wideo, które są widoczne bezpośrednio w oknie logów.</span></li>
+<li class="rvps2"><span class="rvts6">Update LuaJIT pozwalający na działanie skryptów LUA przy dużej ilości otwartych zakładek w wersji x64.</span></li>
+<li class="rvps2"><span class="rvts6">Kilka poprawek odnośnie wielu monitorów.</span></li>
+<li class="rvps2"><span class="rvts6">Płynniejsze przewijanie zakładek.</span></li>
+<li class="rvps2"><span class="rvts6">Naprawiony crash po błędnym wczytaniu audio.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawki filtrowania napisów.</span></li>
+<li class="rvps2"><span class="rvts6">Dodany haczyk jednokrotnego pytania o wczytywanie plików skojarzonych do napisów.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka brakujących skrótów w podręcznym menu wideo.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawiony nie działający prawy przycisk w narzędziu wizualnym przesunięcia.</span></li>
+<li class="rvps2"><span class="rvts6">Dodane kilka okien z pytaniem o usuwanie a także ustawienie aktywnego przycisku na "Nie".</span></li>
+<li class="rvps2"><span class="rvts6">Poprawki przechodzenia do następnego / poprzedniego rozdziału wideo oraz zaznaczania rozdziału w menu wideo.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione użycie ALT z przestawianiem znaczników start i koniec na wykresie audio.</span></li>
+<li class="rvps2"><span class="rvts6">Przerobione odświeżanie kursora audio podczas odtwarzania na osobny wątek, co sprawia, że nie zacina się przy większym obciążeniu wątku głównego.</span></li>
+<li class="rvps2"><span class="rvts6">Dodanie filtra do napisów Libass, który jest szybszy od xy-Vsfiltra i lepiej radzi sobie z potężnymi efektami. Ponadto nie zapisuje napisów na dysk twardy, co dodatkowo przyspiesza wczytywanie napisów po kilkanaście megabajtów.</span></li>
+<li class="rvps2"><span class="rvts6">Migracja na Visual Studio 17.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka nie działającego przeciągania linii start na wykresie audio, gdzie automatycznie ustawiało koniec.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka crashy xy-Vsfiltra, które były dość częste przy użyciu Direct Show i FFMS2 jednocześnie.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka nie działającego szukania tekstu oryginału, gdy oryginał jest ukryty na wideo.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka nie działającego dwukrotnego kliknięcia i przeciągania w polu tekstowym tekstu dialogu.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka braku tła narzędzia wycinka wektorowego.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawki narzędzia wycinka prostokątnego.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka crasha przy jednoczesnym szukaniu wideo i włączaniu / wyłączaniu narzędzi wizualnych.</span></li>
+<li class="rvps2"><span class="rvts6">Usunięcie przycisku edycji wielu stylów jednocześnie i dodanie zapytania czy zmienić wiele stylów po wciśnięciu "OK" bądź "Zastosuj".</span></li>
+<li class="rvps2"><span class="rvts6">Poprawiony crash po zmianie FFMS2.dll na inną wersję, nie ma już potrzeby usuwania indeksów.</span></li>
+<li class="rvps2"><span class="rvts6">Usunięcie opcji szukania w tekście oryginału i zmiana, by szukało jednocześnie w obu tekstach.</span></li>
+<li class="rvps2"><span class="rvts6">Opcja wyłączenia centrowania aktywnej linii w polu napisów.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione literówki w polskich tekstach programu.</span></li>
+<li class="rvps2"><span class="rvts6">Dodana opcja nie zmieniania zaznaczenia przy duplikacji linijek.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka pokazywania znalezionych fraz na tekstach oryginału.</span></li>
+<li class="rvps2"><span class="rvts6">Dodane ustawianie skrótów do wszystkich okien niezależnie od okna pochodzenia skrótu.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka wyświetlania błędów pisowni przy włączonym zastępowaniu tagów na znak zastępczy.</span></li>
+<li class="rvps2"><span class="rvts6">Wiele poprawek postprocessora, by różne opcje użyte na raz nie dokonywały zmian, gdy czas obejmuje klatkę kluczową.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawiony brak pionowego paska przewijania w oknie wyboru ścieżek.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione odczytywanie marginesów w narzędziu wizualnym pozycjonowania.</span></li>
+<li class="rvps2"><span class="rvts6">Dodana możliwość zmiany wielkości okna "Poprawy drobnych błędów".</span></li>
+<li class="rvps2"><span class="rvts6">Poprawka uaktywniania poprzednio używanego okna mimo kliknięcia w inne okno, co powodowało irytujący błąd.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione nie działające "Anuluj" przy pytaniu czy podmienić style.</span></li>
+<li class="rvps2"><span class="rvts6">Dodana opcja wyłączania odtwarzania poprzedniej / następnej linijki na wykresie audio.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione limity w polach numerycznych.</span></li>
+<li class="rvps2"><span class="rvts6">Dodane otwieranie plików przez FFMS2 na pełnym ekranie.</span></li>
+<li class="rvps2"><span class="rvts6">Poprawione nie działające zmniejszanie okna wideo, bo całkowitym powiększeniu.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts14">Lista poprawek w wersji 0.9.5.1138</span></p>
 <p class="rvps2"><span class="rvts14"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
